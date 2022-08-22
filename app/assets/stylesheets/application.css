@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+.answer {
+  border-left: 6px solid #dddddd;
+  padding-left: 5px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.his_answer {
+  border-left: 6px solid #dddddd;
+  padding-left: 5px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  background-color: #feffe1;
+}
+
+#coach_answer {
+  font-weight: 600;
+}
+
+#linktoask {
+  text-decoration: none;
+}
+
+#linktoask:hover {
+  color: rgb(22, 22, 66);
+}
